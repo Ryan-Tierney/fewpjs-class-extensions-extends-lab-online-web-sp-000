@@ -21,7 +21,10 @@ class Polygon {
 class Triangle extends Polygon {
   
   get isValid() { 
-    if 
+    if (this.sides.length == 3) 
+    true 
+    else 
+    false 
   }
   
 }
@@ -29,6 +32,10 @@ class Triangle extends Polygon {
 class Square extends Polygon {
   
   get isValid() { 
+    if (this.sides.length == 4) 
+    true 
+    else 
+    false 
   } 
   
   get area() { 
