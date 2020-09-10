@@ -7,6 +7,9 @@ class Polygon {
   get countSides() { 
     
   }
+  
+  get perimeter() { 
+  }
 } 
 
 class Triangle extends Polygon {
